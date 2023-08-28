@@ -11,8 +11,8 @@ In this mini project, tasks encompass producing the Category and Subcategory Dat
 
 *Both DataFrames have been exportrd as _category.csv_ and _subcategory.csv_*
 
-<img src="/images/category_df.png" width = 300>
-<img src="/images/subcategory_df.png" width = 300>
+<img src="/images/category_df.png" width = 200>
+<img src="/images/subcategory_df.png" width = 200>
 
 2. **Create the Campaign DataFrame:** 
 ***
@@ -54,9 +54,9 @@ In this mini project, tasks encompass producing the Category and Subcategory Dat
     * Verified the table creation by running a **SELECT** statement for each table.
     * Imported each CSV file into its corresponding SQL table.
     * Verified that each table has the correct data by running a **SELECT** statement for each.
-    
-<img src="/images/crowdfunding_df_tables.png" width = 300>
-<img src="/images/ERD.png" width = 400>
+
+<img src="/images/crowdfunding_df_tables.png" width = 200>
+<img src="/images/ERD.png" width = 300>
 
 
 ### Technologies
