@@ -7,7 +7,8 @@ In this mini project, tasks encompass producing the Category and Subcategory Dat
     * The Category DataFrame encompasses: "category_id" column featuring entries progressing sequentially from "cat1" to "catn",and a "category" column housing exclusively the category titles.
     * The Subcategory DataFrame encompasses : "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn" , and a "subcategory" column that contains only the subcategory titles. 
 Both DataFrames have been exportrd as _category.csv_ and _subcategory.csv_
-
+<img src="/images/category_df.png" width = 400>
+<img src="/images/subcategory_df.png" width = 400>
 
 2. Create the Campaign DataFrame: 
     Extract and convert information from the **crowdfunding.xlsx** Excel dataset to generate a campaign DataFrame with the subsequent columns:
@@ -26,12 +27,14 @@ Both DataFrames have been exportrd as _category.csv_ and _subcategory.csv_
     * The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
     * The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 The campaign DataFrame has been exported as _campaign.csv_
+<img src="/images/campaign_df.png" width = 400>
 
 3. Create the Contacts DataFrame: 
     Extract and transformed the data from **contacts.xlsx**, I used Python dictionary methods and regular expression to perfom the tasks in this section. Both options are working  and extract the data properly. 
     * The contacts DataFrame has been created based on the extracted data. 
     * The column "name" splited into two new columns "first_name" and "last_name" in this DataFrame.
     * Cleaned and export the DataFrame as _contacts.csv_
+<img src="/images/contacts_df.png" width = 400>
 
 4. Create the Crowdfunding Database:
     * Inspected four CSV files and the sketch an ERD of the tables by using <a href="https://www.quickdatabasediagrams.com/" target="_blank"> QuickDBD. </a>
@@ -42,7 +45,8 @@ The campaign DataFrame has been exported as _campaign.csv_
     * Verified the table creation by running a **SELECT** statement for each table.
     * Imported each CSV file into its corresponding SQL table.
     * Verified that each table has the correct data by running a **SELECT** statement for each.
-
+<img src="/images/crowdfunding_df_tables.png" width = 400>
+<img src="/images/ERD.png" width = 400>
 
 
 #### References
